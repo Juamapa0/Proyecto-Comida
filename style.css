@@ -103,9 +103,10 @@ main {
         justify-content: center;
     }
     .hero-image {
-        display:none;
+       /* display:none;*/
     }
-    .dishis-grid {
+    .dishes-grid {
         grid-template-columns: repeat(auto-fit, minmax(75px, 100px));
+        gap: 10px;
     }
 }
